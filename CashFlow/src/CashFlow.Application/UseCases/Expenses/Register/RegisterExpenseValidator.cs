@@ -4,7 +4,7 @@ using FluentValidation;
 
 namespace CashFlow.Application.UseCases.Expenses.Register
 {
-    public class RegisterExpenseValidator: AbstractValidator<RequestExpensesJson>
+    public class RegisterExpenseValidator: AbstractValidator<RequestRegisterExpensesJson>
     {
         public RegisterExpenseValidator()
         {

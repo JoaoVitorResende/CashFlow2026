@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Git\\CashFlow2026\\CashFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E5387678-086C-43E9-ABDD-13F079AF29A7}|tests\\Validator.Tests\\Validator.Tests.csproj|d:\\git\\cashflow2026\\cashflow\\tests\\validator.tests\\expenses\\register\\registerexpensevalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5387678-086C-43E9-ABDD-13F079AF29A7}|tests\\Validator.Tests\\Validator.Tests.csproj|solutionrelative:tests\\validator.tests\\expenses\\register\\registerexpensevalidatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5387678-086C-43E9-ABDD-13F079AF29A7}|tests\\Validator.Tests\\Validator.Tests.csproj|d:\\git\\cashflow2026\\cashflow\\tests\\validator.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5387678-086C-43E9-ABDD-13F079AF29A7}|tests\\Validator.Tests\\Validator.Tests.csproj|solutionrelative:tests\\validator.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git\\CashFlow2026\\CashFlow\\Validators.Tests\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Validators.Tests\\UnitTest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.application\\middleware\\culturemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\middleware\\culturemiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +34,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterExpenseValidatorTests.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\tests\\Validator.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
+              "RelativeDocumentMoniker": "tests\\Validator.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\tests\\Validator.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
+              "RelativeToolTip": "tests\\Validator.Tests\\Expenses\\Register\\RegisterExpenseValidatorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T16:35:34.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\tests\\Validator.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "tests\\Validator.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\tests\\Validator.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "tests\\Validator.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T16:25:41.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\Validators.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "Validators.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\Validators.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "Validators.Tests\\UnitTest1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T16:24:47.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.Api\\Program.cs",
@@ -34,12 +83,11 @@
               "RelativeToolTip": "src\\CashFlow.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T15:58:04.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T15:58:04.327Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CultureMiddleware.cs",
               "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\Middleware\\CultureMiddleware.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.Application\\Middleware\\CultureMiddleware.cs",
@@ -47,12 +95,11 @@
               "RelativeToolTip": "src\\CashFlow.Application\\Middleware\\CultureMiddleware.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAADwvxsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-16T15:34:49.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-16T15:34:49.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ExpensesController.cs",
               "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.Api\\Controllers\\ExpensesController.cs",

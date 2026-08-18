@@ -1,5 +1,4 @@
 ﻿using CashFlow.Application.UseCases.Expenses.Register;
-using CashFlow.Communication.Requests;
 using CommonTestUtilities.Requests;
 
 namespace Validator.Tests.Expenses.Register

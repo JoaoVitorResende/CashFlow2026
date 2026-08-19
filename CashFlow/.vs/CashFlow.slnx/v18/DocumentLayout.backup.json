@@ -7,8 +7,32 @@
       "RelativeMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\register\\registerexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D2E27B2-A42E-D7F6-C2FD-025779663AD8}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.infrastructure\\dataaccess\\cashflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D2E27B2-A42E-D7F6-C2FD-025779663AD8}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\dataaccess\\cashflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBAF4537-F7A0-D2E7-060B-213E83156EB3}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.domain\\repositories\\expenses\\iexpensesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAF4537-F7A0-D2E7-060B-213E83156EB3}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\repositories\\expenses\\iexpensesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2E27B2-A42E-D7F6-C2FD-025779663AD8}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.infrastructure\\dataaccess\\repositories\\expensesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2E27B2-A42E-D7F6-C2FD-025779663AD8}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\dataaccess\\repositories\\expensesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21253C97-A592-1BC6-993F-2CEC1C95A0F5}|src\\CashFlow.Api\\CashFlow.Api.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21253C97-A592-1BC6-993F-2CEC1C95A0F5}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D2E27B2-A42E-D7F6-C2FD-025779663AD8}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.infrastructure\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D2E27B2-A42E-D7F6-C2FD-025779663AD8}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21253C97-A592-1BC6-993F-2CEC1C95A0F5}|src\\CashFlow.Api\\CashFlow.Api.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21253C97-A592-1BC6-993F-2CEC1C95A0F5}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.application\\usecases\\expenses\\register\\iregisterexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\register\\iregisterexpenseusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.application\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +42,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CashFlowDbContext.cs",
-              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
-              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
-              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "DependencyInjectionExtension.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\DependencyInjectionExtension.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\DependencyInjectionExtension.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\DependencyInjectionExtension.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\DependencyInjectionExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T17:38:39.302Z",
+              "WhenOpened": "2026-08-19T18:30:43.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRegisterExpenseUseCase.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\IRegisterExpenseUseCase.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\IRegisterExpenseUseCase.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\IRegisterExpenseUseCase.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\IRegisterExpenseUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T18:28:53.887Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +78,74 @@
               "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
               "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
               "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T17:32:46.458Z",
+              "WhenOpened": "2026-08-19T18:22:56.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "src\\CashFlow.Api\\Controllers\\ExpensesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T18:28:31.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjectionExtension.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Infrastructure\\DependencyInjectionExtension.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DependencyInjectionExtension.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Infrastructure\\DependencyInjectionExtension.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DependencyInjectionExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T17:46:32.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Api\\Program.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Api\\Program.cs",
+              "RelativeToolTip": "src\\CashFlow.Api\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T17:42:11.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExpensesRepository.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\ExpensesRepository.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\ExpensesRepository.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\ExpensesRepository.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\ExpensesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T17:35:23.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IExpensesRepository.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Domain\\Repositories\\Expenses\\IExpensesRepository.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Repositories\\Expenses\\IExpensesRepository.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Domain\\Repositories\\Expenses\\IExpensesRepository.cs",
+              "RelativeToolTip": "src\\CashFlow.Domain\\Repositories\\Expenses\\IExpensesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T17:33:09.363Z",
               "EditorCaption": ""
             }
           ]

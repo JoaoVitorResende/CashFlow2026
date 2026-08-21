@@ -13,7 +13,6 @@ namespace CashFlow.Infrastructure.DataAccess.Repositories
         public void Add(Expense expense)
         {
             _dbcontext.Expenses.Add(expense);
-            _dbcontext.SaveChanges();
         }
     }
 }

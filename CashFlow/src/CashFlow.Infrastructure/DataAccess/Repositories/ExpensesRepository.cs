@@ -7,17 +7,26 @@ namespace CashFlow.Infrastructure.DataAccess.Repositories
     internal class ExpensesRepository : IExpensesRepository
     {
         private readonly CashFlowDbContext _dbcontext;
+
         public ExpensesRepository(CashFlowDbContext dbContext)
         {
             _dbcontext = dbContext;
         }
+
         public async Task Add(Expense expense)
         {
             await _dbcontext.Expenses.AddAsync(expense);
         }
+
         public async Task<List<Expense>> GetAll()
         {
-            return await _dbcontext.Expenses.ToListAsync();
+            // if the item going to change the data use asnotracking he dosen't use cache and boost performace
+            return await _dbcontext.Expenses.AsNoTracking().ToListAsync();
+        }
+
+        public async Task<Expense?> GetById(long id)
+        {
+            return await _dbcontext.Expenses.AsNoTracking().FirstOrDefaultAsync(e => e.Id == id);
         }
     }
 }

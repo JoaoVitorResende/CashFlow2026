@@ -24,10 +24,16 @@ namespace CashFlow.Api.Filters
         {
             if (context.Exception is ErrorOnValidationException)
             {
-                var ex = (ErrorOnValidationException)context.Exception;
-                var errorResponse = new ResponsesErrorJson(ex.Erros);
+                ErrorOnValidationException errorOnvalidation = (ErrorOnValidationException)context.Exception;
+                var errorResponse = new ResponsesErrorJson(errorOnvalidation.Erros);
                 context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
                 context.Result = new BadRequestObjectResult(errorResponse);
+            }
+            else if (context.Exception is NotFoundException notFound)
+            {
+                var errorResponse = new ResponsesErrorJson(notFound.Message);
+                context.HttpContext.Response.StatusCode = StatusCodes.Status404NotFound;
+                context.Result = new NotFoundObjectResult(errorResponse);
             }
             else
             {

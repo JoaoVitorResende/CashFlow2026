@@ -5,14 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{21253C97-A592-1BC6-993F-2CEC1C95A0F5}|src\\CashFlow.Api\\CashFlow.Api.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21253C97-A592-1BC6-993F-2CEC1C95A0F5}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D536CBF-5ABA-F1F4-E244-F4FA4E7B20F7}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.exception\\exceptionsbase\\erroronvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D536CBF-5ABA-F1F4-E244-F4FA4E7B20F7}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|solutionrelative:src\\cashflow.exception\\exceptionsbase\\erroronvalidationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D536CBF-5ABA-F1F4-E244-F4FA4E7B20F7}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.exception\\exceptionsbase\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D536CBF-5ABA-F1F4-E244-F4FA4E7B20F7}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|solutionrelative:src\\cashflow.exception\\exceptionsbase\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ErrorOnValidationException.cs",
-              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Exception\\ExceptionsBase\\ErrorOnValidationException.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Exception\\ExceptionsBase\\ErrorOnValidationException.cs",
-              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Exception\\ExceptionsBase\\ErrorOnValidationException.cs*",
-              "RelativeToolTip": "src\\CashFlow.Exception\\ExceptionsBase\\ErrorOnValidationException.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T16:58:14.052Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -45,22 +24,9 @@
               "RelativeDocumentMoniker": "src\\CashFlow.Api\\Filters\\ExceptionFilter.cs",
               "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Api\\Filters\\ExceptionFilter.cs",
               "RelativeToolTip": "src\\CashFlow.Api\\Filters\\ExceptionFilter.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwB4AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T16:39:53.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Exception\\ExceptionsBase\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Exception\\ExceptionsBase\\NotFoundException.cs",
-              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Exception\\ExceptionsBase\\NotFoundException.cs",
-              "RelativeToolTip": "src\\CashFlow.Exception\\ExceptionsBase\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T16:22:46.929Z",
+              "WhenOpened": "2026-08-26T17:49:09.649Z",
               "EditorCaption": ""
             }
           ]

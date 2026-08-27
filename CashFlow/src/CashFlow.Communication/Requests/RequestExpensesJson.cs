@@ -2,7 +2,7 @@
 
 namespace CashFlow.Communication.Requests
 {
-    public class RequestRegisterExpensesJson
+    public class RequestExpensesJson
     {
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;

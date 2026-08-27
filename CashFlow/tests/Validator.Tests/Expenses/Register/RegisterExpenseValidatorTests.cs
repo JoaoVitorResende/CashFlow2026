@@ -1,4 +1,5 @@
-﻿using CashFlow.Application.UseCases.Expenses.Register;
+﻿using CashFlow.Application.UseCases.Expenses;
+using CashFlow.Application.UseCases.Expenses.Register;
 using CommonTestUtilities.Requests;
 
 namespace Validator.Tests.Expenses.Register
@@ -8,7 +9,7 @@ namespace Validator.Tests.Expenses.Register
         [Fact]
         public void Sucess()
         {
-            var validator = new RegisterExpenseValidator();
+            var validator = new ExpenseValidator();
             var request = RequestRegisterExpensesJsonBuilder.Build();
             var result = validator.Validate(request);
             Assert.True(result.IsValid);
@@ -16,7 +17,7 @@ namespace Validator.Tests.Expenses.Register
         [Fact]
         public void Error_Title()
         {
-            var validator = new RegisterExpenseValidator();
+            var validator = new ExpenseValidator();
             var request = RequestRegisterExpensesJsonBuilder.Build();
             request.Title = "";
             var result = validator.Validate(request);

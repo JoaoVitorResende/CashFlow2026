@@ -20,7 +20,7 @@ namespace CashFlow.Application.UseCases.Expenses.Register
             _unityOfWork = unityOfWork;
             _autoMapper = autoMapper;
         }
-        public async Task<ResponseRegisteredExpenseJson> Execute(RequestRegisterExpensesJson request)
+        public async Task<ResponseRegisteredExpenseJson> Execute(RequestExpensesJson request)
         {
             Validate(request);
 
@@ -30,9 +30,9 @@ namespace CashFlow.Application.UseCases.Expenses.Register
             return _autoMapper.Map<ResponseRegisteredExpenseJson>(entity);
         }
 
-        private void Validate(RequestRegisterExpensesJson request)
+        private void Validate(RequestExpensesJson request)
         {
-            var validator = new RegisterExpenseValidator();
+            var validator = new ExpenseValidator();
             var result = validator.Validate(request);
 
             if (!result.IsValid)

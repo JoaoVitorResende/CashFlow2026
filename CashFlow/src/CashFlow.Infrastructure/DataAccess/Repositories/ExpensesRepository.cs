@@ -18,6 +18,15 @@ namespace CashFlow.Infrastructure.DataAccess.Repositories
             await _dbcontext.Expenses.AddAsync(expense);
         }
 
+        public async Task<bool> Delete(long id)
+        {
+            var result = await _dbcontext.Expenses.FirstOrDefaultAsync(expense => expense.Id == id);
+            if (result is null)
+                return false;
+            _dbcontext.Expenses.Remove(result);
+            return true;
+        }
+
         public async Task<List<Expense>> GetAll()
         {
             // if the item going to change the data use asnotracking he dosen't use cache and boost performace

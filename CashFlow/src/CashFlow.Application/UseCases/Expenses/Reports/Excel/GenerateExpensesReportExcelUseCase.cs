@@ -16,11 +16,29 @@ namespace CashFlow.Application.UseCases.Expenses.Reports.Excel
         public async Task<byte[]> Execute(DateOnly month)
         {
             var expenses = await _repository.FilterByMonth(month);
-            var workbook = new XLWorkbook();
+
+            if (expenses.Count == 0)
+                return [];
+
+            using var workbook = new XLWorkbook();
             workbook.Style.Font.FontSize = 14;
             workbook.Style.Font.FontName = "Times New Roman";
             var worksheet = workbook.Worksheets.Add(month.ToString("Y"));
             InsertHeader(worksheet);
+
+            var raw = 2;
+
+            foreach(var expense in expenses)
+            {
+                worksheet.Cell($"A{raw}").Value = expense.Title;
+                worksheet.Cell($"B{raw}").Value = expense.Date;
+                worksheet.Cell($"C{raw}").Value = expense.PaymentType.ToString();
+                worksheet.Cell($"D{raw}").Style.NumberFormat.Format = $"-{expense.Amount} #,###" ;
+                worksheet.Cell($"E{raw}").Value = expense.Description;
+                raw++;
+            }
+            worksheet.Columns().AdjustToContents();
+            workbook.Dispose();
             var file = new MemoryStream();
             workbook.SaveAs(file);
             return file.ToArray();

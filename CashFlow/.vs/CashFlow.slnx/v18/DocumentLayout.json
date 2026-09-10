@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\users\\password\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.application\\usecases\\users\\register\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\users\\register\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.application\\usecases\\users\\register\\registeruserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\users\\register\\registeruserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0B3D45B-3D94-4656-AFF5-11EF751DA938}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.communication\\requests\\requestregisterusersjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0B3D45B-3D94-4656-AFF5-11EF751DA938}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|solutionrelative:src\\cashflow.communication\\requests\\requestregisterusersjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21253C97-A592-1BC6-993F-2CEC1C95A0F5}|src\\CashFlow.Api\\CashFlow.Api.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21253C97-A592-1BC6-993F-2CEC1C95A0F5}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.application\\usecases\\users\\register\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15582D4E-66D1-9A2C-EF36-A47596DF90DD}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\users\\register\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAF4537-F7A0-D2E7-060B-213E83156EB3}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|d:\\git\\cashflow2026\\cashflow\\src\\cashflow.domain\\repositories\\users\\iuserwriteonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAF4537-F7A0-D2E7-060B-213E83156EB3}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\repositories\\users\\iuserwriteonlyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,14 +35,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RequestRegisterUsersJson.cs",
-              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestRegisterUsersJson.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Communication\\Requests\\RequestRegisterUsersJson.cs",
-              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestRegisterUsersJson.cs",
-              "RelativeToolTip": "src\\CashFlow.Communication\\Requests\\RequestRegisterUsersJson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Register\\UserValidator.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Users\\Register\\UserValidator.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Register\\UserValidator.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Register\\UserValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T23:09:01.87Z"
+              "WhenOpened": "2026-09-10T00:50:06.345Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -46,36 +51,50 @@
               "Title": "PasswordValidator.cs",
               "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Password\\PasswordValidator.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Users\\Password\\PasswordValidator.cs",
-              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Password\\PasswordValidator.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Password\\PasswordValidator.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wA8AAAAJAAAAAAAAAA==",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Password\\PasswordValidator.cs*",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Password\\PasswordValidator.cs*",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T23:00:00.924Z",
+              "WhenOpened": "2026-09-10T00:43:03.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Api\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "src\\CashFlow.Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T00:41:30.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserValidator.cs",
-              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Register\\UserValidator.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Users\\Register\\UserValidator.cs",
-              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Register\\UserValidator.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Register\\UserValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T22:56:53.818Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "RegisterUserUseCase.cs",
               "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Register\\RegisterUserUseCase.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Users\\Register\\RegisterUserUseCase.cs",
               "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Register\\RegisterUserUseCase.cs",
               "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Register\\RegisterUserUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwDAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T22:33:53.649Z"
+              "WhenOpened": "2026-09-10T00:40:36.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserWriteOnlyRepository.cs",
+              "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Domain\\Repositories\\Users\\IUserWriteOnlyRepository.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Repositories\\Users\\IUserWriteOnlyRepository.cs",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Domain\\Repositories\\Users\\IUserWriteOnlyRepository.cs",
+              "RelativeToolTip": "src\\CashFlow.Domain\\Repositories\\Users\\IUserWriteOnlyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T00:36:23.847Z"
             }
           ]
         }

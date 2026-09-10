@@ -4,6 +4,7 @@ using CashFlow.Communication.Responses;
 using CashFlow.Domain.Entities;
 using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Users;
+using CashFlow.Domain.Security.Cryptography;
 using CashFlow.Exception.ExceptionsBase;
 
 namespace CashFlow.Application.UseCases.Users.Register
@@ -12,19 +13,22 @@ namespace CashFlow.Application.UseCases.Users.Register
     {
         private readonly IUserWriteOnlyRepository _repository;
         private readonly IUnityOfWork _unityOfWork;
+        private readonly IPasswordEncripter _passwordEncripter;
         private readonly IMapper _autoMapper;
 
-        public RegisterUserUseCase(IUserWriteOnlyRepository repository, IUnityOfWork unityOfWork, IMapper autoMapper)
+        public RegisterUserUseCase(IUserWriteOnlyRepository repository, IUnityOfWork unityOfWork, IMapper autoMapper, IPasswordEncripter passwordEncripter)
         {
             _repository = repository;
             _unityOfWork = unityOfWork;
             _autoMapper = autoMapper;
+            _passwordEncripter = passwordEncripter;
         }
 
         public async Task<ResponseRegisteredUserJson> Execute(RequestRegisterUsersJson request)
         {
             Validate(request);
             var user = _autoMapper.Map<User>(request);
+            user.Password = _passwordEncripter.Encrypt(request.Password);
             await _repository.Add(user);
             await _unityOfWork.Commit();
 

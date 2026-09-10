@@ -38,8 +38,7 @@
               "RelativeToolTip": "src\\CashFlow.Communication\\Requests\\RequestRegisterUsersJson.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T23:09:01.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T23:09:01.87Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Users\\Password\\PasswordValidator.cs",
               "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Password\\PasswordValidator.cs",
               "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Password\\PasswordValidator.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowA8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA5wA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-07T23:00:00.924Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Register\\UserValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T22:56:53.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T22:56:53.818Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Register\\RegisterUserUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-07T22:33:53.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-07T22:33:53.649Z"
             }
           ]
         }

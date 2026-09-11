@@ -2,9 +2,11 @@
 using CashFlow.Domain.Repositories.Expenses;
 using CashFlow.Domain.Repositories.Users;
 using CashFlow.Domain.Security.Cryptography;
+using CashFlow.Domain.Security.Tokens;
 using CashFlow.Infrastructure.DataAccess;
 using CashFlow.Infrastructure.DataAccess.Repositories;
-using CashFlow.Infrastructure.Security;
+using CashFlow.Infrastructure.Security.Cryptography;
+using CashFlow.Infrastructure.Security.Token;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -27,6 +29,7 @@ namespace CashFlow.Infrastructure
             services.AddScoped<IUserReadOnlyRepository, UsersRepository>();
             services.AddScoped<IUserWriteOnlyRepository, UsersRepository>();
             services.AddScoped<IUnityOfWork, UnityOfWork>();
+            services.AddScoped<IAccessTokenGenerator, JwtTokenGenerator>();
         }
         private static void AddDbContext(IServiceCollection services, IConfiguration configuration)
         {

@@ -19,7 +19,14 @@ namespace CashFlow.Infrastructure
         {
             AddDbContext(services, configuration);
             AddRepositories(services);
+            AddToken(services, configuration);
             services.AddScoped<IPasswordEncripter, Cryptography>();
+        }
+        private static void AddToken(IServiceCollection services, IConfiguration configuration)
+        {
+            var expirationTimeMinutes = configuration.GetValue<uint>("Settings:Jwt:ExpiresMinutes");
+            var signinKey = configuration.GetValue<string>("Settings:Jwt:SigninKey");
+            services.AddScoped<IAccessTokenGenerator>(config => new JwtTokenGenerator(expirationTimeMinutes, signinKey!));
         }
         private static void AddRepositories(IServiceCollection services)
         {
@@ -29,7 +36,6 @@ namespace CashFlow.Infrastructure
             services.AddScoped<IUserReadOnlyRepository, UsersRepository>();
             services.AddScoped<IUserWriteOnlyRepository, UsersRepository>();
             services.AddScoped<IUnityOfWork, UnityOfWork>();
-            services.AddScoped<IAccessTokenGenerator, JwtTokenGenerator>();
         }
         private static void AddDbContext(IServiceCollection services, IConfiguration configuration)
         {

@@ -18,7 +18,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
-var signingKey = builder.Configuration.GetValue<string>("Settings:Jwt:SigningKey");
+
+var signingKey = builder.Configuration.GetValue<string>("Settings:Jwt:SigninKey");
+
 builder.Services.AddAuthentication(config =>
 {
     config.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -29,7 +31,7 @@ config.TokenValidationParameters = new TokenValidationParameters {
     ValidateIssuer = false,
     ValidateAudience = false,
     ClockSkew = new TimeSpan(0),
-    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(signingKey!))
+    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(signingKey))
 };
 });
 var app = builder.Build();

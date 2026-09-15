@@ -30,9 +30,9 @@
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Api\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.Api\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Api\\Controllers\\LoginController.cs*",
-              "RelativeToolTip": "src\\CashFlow.Api\\Controllers\\LoginController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "ToolTip": "D:\\Git\\CashFlow2026\\CashFlow\\src\\CashFlow.Api\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "src\\CashFlow.Api\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-14T19:46:39.567Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "src\\CashFlow.Infrastructure\\DependencyInjectionExtension.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T19:25:02.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-14T19:25:02.404Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Login\\DoLoginUseCase.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA3wAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T19:00:24.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-14T19:00:24.095Z"
             }
           ]
         }

@@ -21,11 +21,11 @@ namespace CashFlow.Infrastructure.Security.Token
 
         public string Generate(User user)
         {
-            var claims = new List<Claim>();
-            {
-                new Claim(ClaimTypes.Name, user.Name);
-                new Claim(ClaimTypes.Sid, user.UserIdentifier.ToString());
-            }
+            var claims = new List<Claim>
+{
+            new Claim(ClaimTypes.Name, user.Name),
+            new Claim(ClaimTypes.Sid, user.UserIdentifier.ToString())
+        };
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {

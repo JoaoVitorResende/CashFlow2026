@@ -24,8 +24,11 @@ namespace CashFlow.Infrastructure.Services.LoggedUser
             var tokenHandler = new JsonWebTokenHandler();
             var jwtSecurityToken = tokenHandler.ReadJsonWebToken(token);
             var identifier = jwtSecurityToken.Claims.First(claim => claim.Type == ClaimTypes.Sid).Value;
+            Console.WriteLine(identifier);
+            var userIdentifier = Guid.Parse(identifier);
+
             return await _dbcontext.Users.AsNoTracking()
-                .FirstAsync(user => user.UserIdentifier == Guid.Parse(identifier));
+                .FirstAsync(user => user.UserIdentifier == userIdentifier);
         }
     }
 }

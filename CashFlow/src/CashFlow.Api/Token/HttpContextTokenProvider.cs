@@ -12,6 +12,10 @@ namespace CashFlow.Api.Token
         public string TokenOnRequest()
         {
             var authorization = _contextAccessor.HttpContext!.Request.Headers.Authorization.ToString();
+
+            if (string.IsNullOrWhiteSpace(authorization) || !authorization.StartsWith("Bearer "))
+                return string.Empty;
+
             return authorization["Bearer ".Length..].Trim();
         }
     }
